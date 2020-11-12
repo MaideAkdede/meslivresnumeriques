@@ -14,13 +14,14 @@ $collections = $pdo->query($getCollections);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        Mes Livres Numeriques | Collections
+        Collections | Mes Livres Numeriques
     </title>
-    <!--<link rel="stylesheet" type="text/css" href="../css/style.css">-->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 
 </head>
 <body>
 <h1>Collections</h1>
+<a href="../index.php" class="button-return" >Retourner à la page d'accueil</a>
 <div class="main">
     <form action="../controllers/insertCollection.php" method="post">
         <label for="collection">Ajouter une collection : </label>
@@ -36,6 +37,6 @@ $collections = $pdo->query($getCollections);
         <?php endforeach; ?>
     </ul>
 </div>
-<a href="../index.php" class="button footer button-return" >Retourner à la page d'accueil</a>
+
 </body>
 </html>

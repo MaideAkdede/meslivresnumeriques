@@ -2,3 +2,15 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+.button-return{
+    display: inline-block;
+    color: darkred;
+    margin: 0.75em 0 2em;
+    border: darkred solid 1px;
+    padding: 1em;
+    transition-duration: 0.25s;
+}
+.button-return:hover{
+    background-color: darkred;
+    color: white;
+}

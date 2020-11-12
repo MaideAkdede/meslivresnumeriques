@@ -16,11 +16,11 @@ $categories = $pdo->query($getCategories);
     <title>
         Mes Livres Numériques | Catégories
     </title>
-   <!-- <link rel="stylesheet" type="text/css" href="../css/style.css">-->
-
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
     <h1>Catégories</h1>
+    <a href="../index.php" class="button-return" >Retourner à la page d'accueil</a>
     <div class="main">
         <form action="../controllers/insertCategorie.php" method="post">
             <label for="categorie">Ajouter une catégorie : </label>
@@ -36,6 +36,5 @@ $categories = $pdo->query($getCategories);
             <?php endforeach; ?>
         </ul>
     </div>
-    <a href="../index.php" class="button footer button-return" >Retourner à la page d'accueil</a>
 </body>
 </html>
