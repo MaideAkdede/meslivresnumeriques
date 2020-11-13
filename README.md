@@ -1,5 +1,5 @@
 # Mes Livres Numériques
-> Choisir un site et réalisé la db de ce site.
+> Choisir un site et réaliser la db de ce site.
 
 > Site choisi : [MesLivresNumériques](https://www.meslivresnumeriques.be/)
 ***
