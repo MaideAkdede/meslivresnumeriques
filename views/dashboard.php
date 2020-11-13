@@ -21,6 +21,8 @@
         <li><a href="./views/insertCategorie.php" class="button">Catégories</a></li>
         <li><a href="./views/insertCollection.php" class="button">Collections</a></li>
         <li><a href="./views/insertAuthor.php" class="button">Auteurs & bio</a></li>
+        <li><a href="./views/insertFormat.php" class="button">Formats</a></li>
+        <li><a href="./views/insertEditor.php" class="button">Éditeur</a></li>
     </ol>
 
 
